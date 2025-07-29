@@ -1,0 +1,55 @@
+.head{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: 2px solid white;
+    background: linear-gradient(#ECEFFE,#CED6FB);
+}
+.left{
+    flex-shrink: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+.right{
+    flex-shrink: none;
+}
+.head-text{
+    font-size: clamp(1.5rem, 3vw, 4rem);
+    padding: 20px;
+    color:rgb(100, 100, 221);
+}
+
+.profile-pic{
+    width: 80px;
+border-radius: 50%;
+aspect-ratio: 1/1;
+padding: 10px;
+margin-right: 15px;
+
+}
+
+.head-two{
+    height: 80px;
+    width: 100%;
+    background-color:transparent;
+    position:absolute;
+    top: 80PX;
+}
+
+.p{
+    text-align: center;
+    color: #8598e4;
+    font-size: clamp(2rem, 4vw,4rem);
+    margin:clamp(2rem,4vw, 1rem );
+
+}
+
